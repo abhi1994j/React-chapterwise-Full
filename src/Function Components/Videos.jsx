@@ -8,8 +8,7 @@ export default function Videos() {
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-6">
                             <div class="embed-responsive embed-responsive-16by9 mb-4">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                                    allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

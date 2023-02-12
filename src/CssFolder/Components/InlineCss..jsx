@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Inline.css"
+import "../Inline.css"
 export default function InlineCss() {
   const myCss = {
     padding: "20px",

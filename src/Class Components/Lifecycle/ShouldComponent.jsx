@@ -15,7 +15,7 @@ export default class ShouldComponent extends Component {
         if(this.state.count>5 && this.state.count<10){
              return true;
         }
-        // return false;
+        return false;
     }
   render() {
     return (

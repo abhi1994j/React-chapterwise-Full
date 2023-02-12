@@ -1,6 +1,6 @@
 import React,{ useState,useMemo } from "react"
 
-const UseMemo = () => {
+const UseMemoExample = () => {
     const [count, setcount] = useState(1)
     const [data, setdata] = useState("Avik")
     //In React, memoization is a technique that can be used to optimize the performance of a component by avoiding unnecessary re-renders.
@@ -26,4 +26,4 @@ const UseMemo = () => {
   )
 }
 
-export default UseMemo
+export default UseMemoExample

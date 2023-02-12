@@ -1,12 +1,12 @@
 import React ,{useState}from 'react'
 function Onchange() {
-const [data,setData]=useState(null)
+const [data,setData]=useState('')
 const [print,setPrint]=useState(false)
 
-  function getData(val)
+  function getData(e)
   {
-    console.warn(val.target.value)
-    setData(val.target.value)
+    console.warn(e.target.value)
+    setData(e.target.value)
     setPrint(false)
   }
   return (
@@ -16,7 +16,7 @@ const [print,setPrint]=useState(false)
        <h1> {data}</h1>
        :null
      }
-    <input type="text" onChange={getData} />
+    <input type="text" value={data} onChange={getData} />
     <button onClick={()=>setPrint(true)} >Print Data</button>
     </div>
   );

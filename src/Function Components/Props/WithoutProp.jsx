@@ -10,5 +10,4 @@ const WithoutProp = ({Data}) => {
     </>
   );
 };
-
 export default WithoutProp;

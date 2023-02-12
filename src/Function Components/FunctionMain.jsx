@@ -1,12 +1,15 @@
 import React from 'react'
-import WithoutProp from './Props/WithoutProp'
-import Nameupdate from './States/Nameupdate'
-import Cssprops from './Props/Cssprops'
-import Propstransfer from './Props/WithoutProps/Propstransfer'
-import Objtranfer from './Props/WithoutProps/Objtranfer'
 import Changecolor from './States/Changecolor'
+import Myfunc from './States/Myfunc'
+import Nameupdate from './States/Nameupdate'
 import PropsState from './States/PropsState'
 import Videos from './Videos'
+import Objtranfer from './Props/WithoutProps/Objtranfer'
+import Propstransfer from './Props/WithoutProps/Propstransfer'
+import Cssprops from './Props/Cssprops'
+import WithoutProp from './Props/WithoutProp'
+import NavProps from './Props/NavProps'
+
 const FunctionMain = () => {
   const mystyle = {
     color: "black",
@@ -26,14 +29,16 @@ const FunctionMain = () => {
 
   return (
     <>
-      {/* <Nameupdate style={{float:"right"}} value={"Abhishek"} func={myFunc}/>
-      <WithoutProp Data="Abhishek"/>
-      <Cssprops style={mystyle} func={myFunc}/>
-      <Propstransfer myobj={{ name:"Avik",surname:"Das",age:"87"}}/>
-      <Objtranfer text2={text}/>
-      <Changecolor/>
-      <PropsState text={"Abhishek"} Data1={func1}/>
-      <Videos/> */}
+      {/* <Changecolor/> */}
+      {/* <Myfunc/> */}
+      {/* <Nameupdate style={{float:"right"}} value={"Abhishek"} func={myFunc}/> */}
+      {/* <PropsState text={"Abhishek"} Data1={func1}/> */}
+      {/* <Videos/> */}
+      {/* <Objtranfer text2={text}/> */}
+      {/* <Propstransfer myobj={{ name:"Avik",surname:"Das",age:"87"}}/> */}
+      {/* <Cssprops style={mystyle} func={myFunc}/> */}
+      {/* <NavProps title="Blogs" about="About-us"/> */}
+      {/* <WithoutProp Data="Abhishek"/> */}
     </>
   )
 }

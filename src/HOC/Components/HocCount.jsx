@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 export const HocCount = () => {
 //A higher-order component (HOC) is an advanced technique in React for reusing component logic.
-//A higher-order component is a function that takes a component as an argument and returns a new component with additional functionality. HOCs are commonly used to add additional behavior or props to a component without modifying the original component's code. 
+//A higher-order component is a function that takes a component as an argument and returns a new component with additional functionality. 
+//HOCs are commonly used to add additional behavior or props to a component without modifying the original component's code. 
 return (
     <div >
         <u><h1 className="text-center font-weight-bold bg bg-secondary">HOC</h1></u>

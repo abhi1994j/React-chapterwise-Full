@@ -5,12 +5,14 @@ function Onsubmit() {
   const [interest,setInterest]=useState("");
   function getFormData(e)
   {
-    console.warn(name,tnc,interest)
     e.preventDefault()
+    console.warn(name,tnc,interest) 
+    // setTnc(true); 
   }
   return (
     <div className="App">
         <h1>Handle Form in React</h1>
+        
             <form onSubmit={getFormData}>
                 <input type="text" placeholder="enter name" value={name} onChange={(e)=>setName(e.target.value)} /> <br /><br />
                 <select onChange={(e)=>setInterest(e.target.value)}>
@@ -21,7 +23,8 @@ function Onsubmit() {
                 <input type="checkbox"  onChange={(e)=>setTnc(e.target.checked)} /><span>Accept Terms and conditions</span>
                 <br /><br />
                 <button type="submit">Submit</button>
-                <button>Clear</button>
+                <button onClick={()=>console.clear()}>Clear</button>
+                {/* {tnc?<h1>{name}</h1>:null} */}
             </form>
     </div>
   );

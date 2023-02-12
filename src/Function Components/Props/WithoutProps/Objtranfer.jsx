@@ -4,7 +4,7 @@ export default function Objtranfer({text2:{name,age}}) {
   
   return (
     <>
-    <h1>{name} and {age}</h1>
+      <h1>{name} and {age}</h1>
     </>
   )
 }

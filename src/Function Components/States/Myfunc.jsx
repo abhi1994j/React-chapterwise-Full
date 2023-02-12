@@ -10,4 +10,4 @@ const Myfunc = () => {
     )
 }
 
-export default Myfunc
+export default Myfunc;

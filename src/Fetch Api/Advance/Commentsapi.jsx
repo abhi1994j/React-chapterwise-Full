@@ -1,10 +1,11 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 export default function Commentsapi() {
   const [Comments, setComments] = useState([]);
 
   const getComments = async () => {
-    const response = await fetch("https://jsonplaceholder.typicode.com/comments");
-    setComments(await response.json());
+    const response = await axios.get("https://jsonplaceholder.typicode.com/comments");
+    setComments(await response.data);
   };
 
   useEffect(() => {
@@ -18,8 +19,8 @@ export default function Commentsapi() {
             <div className="row">
                 {Comments.map((CurrentData) => {
                     return (
-                    <div className="col-md-4" key={CurrentData.postId}>
-                        <div className="card cardd">Id: {CurrentData.id}
+                    <div className="col-md-4" key={CurrentData.id}>
+                        <div className="card cardd">Id: {CurrentData.postId}
                             <div className="card-body">
                                 <h3 className="card-title">Name: {CurrentData.name.slice(0,15)}</h3>
                                 <h5 className="card-title">Email: {CurrentData.email}</h5>

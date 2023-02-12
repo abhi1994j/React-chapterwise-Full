@@ -20,7 +20,7 @@ export default class StudentBio extends Component {
         <p>your name is {this.state.name} </p>
         <p>your phone no is {this.state.phone}</p>
         <p>your city {this.state.city}</p>
-        <button onClick={func}>click it</button>
+        {/* <button onClick={func}>click it</button> */}
         <button onClick={()=>this.setState({name:"Abhinash Das"})}>click it</button>
       </div>
     )
