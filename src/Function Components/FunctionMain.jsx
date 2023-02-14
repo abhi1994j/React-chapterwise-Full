@@ -9,6 +9,7 @@ import Propstransfer from './Props/WithoutProps/Propstransfer'
 import Cssprops from './Props/Cssprops'
 import WithoutProp from './Props/WithoutProp'
 import NavProps from './Props/NavProps'
+import Hello2 from './Props/components/Hello2'
 
 const FunctionMain = () => {
   const mystyle = {
@@ -39,6 +40,7 @@ const FunctionMain = () => {
       {/* <Cssprops style={mystyle} func={myFunc}/> */}
       {/* <NavProps title="Blogs" about="About-us"/> */}
       {/* <WithoutProp Data="Abhishek"/> */}
+      {/* <Hello2 text={text}/> */}
     </>
   )
 }

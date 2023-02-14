@@ -6,9 +6,9 @@ import Countupdate from './UseStates/Countupdate'
 import DefineStates from './UseStates/DefineStates'
 import { NameChange } from './UseStates/NameChange'
 import ObjChange from './UseStates/ObjChange'
-import Effectexample from './UseEffect/Effectexample'
 import FetchUser from './UseEffect/FetchUser'
 import LifeCycle from './UseEffect/LifeCycle'
+import Time from './UseEffect/Time'
 import MemoBasic from './USEMemo/MemoReact/MemoBasic'
 import CounterMemo from './USEMemo/CounterMemo'
 import UseMemoExample from './USEMemo/UseMemoExample'
@@ -27,16 +27,16 @@ const HookMain = () => {
   return (
     <>
         {/* <h1>HookMain</h1> */}
-        {/* <ArrofObjChange/> */}//
+        {/* <ArrofObjChange/> */}
         {/* <BasicStates/> */}
         {/* <ChangeColor/> */}
         {/* <Countupdate/> */}
         {/* <DefineStates/> */}
         {/* <NameChange/> */}
         {/* <ObjChange/> */}
-        {/* <Effectexample/> */}//
         {/* <FetchUser/> */}
         {/* <LifeCycle/> */}//
+        {/* <Time/> */}
         {/* <MemoBasic/> */}
         {/* <CounterMemo/> */}
         {/* <DepenMemo/> */}

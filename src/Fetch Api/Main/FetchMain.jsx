@@ -20,7 +20,7 @@ const FetchMain = () => {
       {/* <FakestoreProducts/> */}
       {/* <Axiosposts/> */}
       {/* <Commentsapi/> */}
-      {/* <Final/> */}//
+      {/* <Final/>// */}
       {/* <Photosapi/> */}
       {/* <WeatherApi/> */}
     </>
