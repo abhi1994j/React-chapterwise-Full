@@ -1,0 +1,122 @@
+HTML , CSS and JAVASCRIPT
+
+https://blog.duda.co/8-cool-html-tags-you-didn-t-know-existed#meter
+
+https://levelup.gitconnected.com/10-amazing-tags-and-attributes-of-html-you-never-use-afc82ff587cf
+
+https://webdesign.tutsplus.com/10-rare-html-tags-you-really-should-know--net-3908a
+
+https://www.makeuseof.com/useful-html-attributes-to-know/
+
+https://htmlcheatsheet.com/js/
+
+https://websitesetup.org/javascript-cheat-sheet/
+
+https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+
+https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/
+
+https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript/
+
+https://www.freecodecamp.org/news/the-javascript-array-handbook/
+
+Figma To HTML - Responsive Homepage
+GTCoding
+
+https://youtu.be/8fXZWNlq8Rk
+https://youtu.be/8fXZWNlq8Rk
+https://youtu.be/fMk1BOptVUs
+
+funny
+https://youtu.be/MH94g9zOMSg
+https://youtube.com/shorts/3cJ6Jl19NqY?feature=share
+https://youtube.com/shorts/3cJ6Jl19NqY?feature=share
+https://youtu.be/-TKzSjOvqV0
+https://youtu.be/OFJTJPMY5Vo
+https://youtu.be/JcAegIUzKuo
+https://youtu.be/lVkKLf4DCn8
+
+https://youtube.com/shorts/y2CmJDHx9jI?feature=share
+https://youtube.com/shorts/2UxVEY0d0zE?feature=share
+https://youtube.com/shorts/ieqPyU9DUYE?feature=share
+https://youtube.com/shorts/UHuWkXfk3WI?feature=share
+https://youtube.com/shorts/DP92hTN6eCo?feature=share
+https://youtu.be/fSTwONwagXY
+
+
+
+REACT
+
+https://www.freecodecamp.org/news/the-react-cheatsheet/
+
+https://dev.to/brayanarrieta/new-javascript-features-ecmascript-2021-with-examples-3hfm
+
+https://blog.devgenius.io/8-useful-react-cheatsheets-for-all-web-developers-c95ffb239e08
+
+https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/
+
+https://medium.com/coinmonks/react-js-cheatsheet-for-beginners-5665425d9026
+
+https://bosctechlabs.com/react-js-cheat-sheet-for-beginners-in-2023/
+
+https://dev.to/ericchapman/react-cheat-sheet-updated-may-2021-1mcd
+
+https://codepen.io/topic/react/templates?cursor=ZD0xJm89MCZwPTEmdj00NzE3NDc3
+
+https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet
+
+https://devhints.io/react
+
+https://www.codewithharry.com/tutorial/react-home/
+
+http://cheatsheets.shecodes.io/react
+
+https://zerotomastery.io/cheatsheets/react-cheat-sheet/
+
+https://upmostly.com/ultimate-reactjs-cheat-sheet
+
+https://react-hooks-cheatsheet.com/usestate
+
+
+Challenges
+
+https://codepen.io/challenges
+
+
+docker
+
+https://www.geeksforgeeks.org/docker-cheat-sheet/
+
+
+Notepad 
+
+https://opjsrgh.in/Content/Worksheet/PRACTICE-WS/2021-2022/day203/2-Computer.pdf
+
+abhishek_chatterjee / g7!kTWBBpsY
+
+
+		https://youtube.com/shorts/tUM0gKafZ1U?feature=share
+		https://youtube.com/shorts/Ev8xW9iW13g?feature=share
+		https://youtube.com/shorts/ByftjpndXts?feature=share
+		https://youtube.com/shorts/yrADrQpPQyc?feature=share
+		https://youtube.com/shorts/tciQMcmUA0Q?feature=share
+
+ Docker is a software framework for building, running, and managing containers on servers and the cloud.
+
+stackoverflow passwword: 54321abhishyam
+
+The localStorage object stores data with no expiration date.
+
+The data is not deleted when the browser is closed, and are available for future sessions.
+
+localStorage.setItem(key, value);
+localStorage.setItem(key, value);
+localStorage.removeItem(key);
+localStorage.clear();
+
+https://youtube.com/shorts/WvXOFyKAn0w?feature=share
+
+const mult =(a,b=3)=>{
+    return a * b;
+}
+console.log(mult(null));
